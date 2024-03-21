@@ -1,0 +1,15 @@
+Django
+
+A framework built on python used to make a server. Django is equivalant to express. We can make a sewrver without using any framework, but its a rather complicated process, a framework makes this easier. 
+
+.env file - generally secrets are stored here. Eg: API keys. Not to be uploaded in the github repo. 
+Virtual environment must not be pushed into our github.
+
+Project vs app - Project is your configuration. App is where we write our logic.
+
+Django follows an architecture - Model View Template.
+
+Model - Database ke fields bana rahe hai. 1 Model - 1 Database
+Views - Iss path pe jao toh yeh riute follow hona chahiye.
+
+Serializers - Jo data aa raha hai usko python object mei convert krde. basically for cross language translator hai.
